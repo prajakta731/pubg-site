@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>index</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="header-container">
+		<div class="header">
+			<header><br>
+				&nbsp;&nbsp;&nbsp;&nbsp;<img src="D:\pubg\images\newqlogo.psd" alt="sitename" width="25%" height="30%">
+				<!-- <img src="D:\pubH1>g\images\logo1.png" alt="logo" width="250" height="100">	 -->
+				<nav>
+					<ul>
+						<li><a href="ibdex.html" alt="index page">Home</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Terms</a></li>
+						<li><a href="#"> Login/Register</a></li>
+					</ul>
+				</nav>
+				<div class="clear"></div>
+			</header>
+			<div class="imageslider">
+				<button id="click">Register</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="terms">
+	</div>   
+	<div id="login" class="login">
+		<form action="#">
+			<legend>
+				<div class="name">
+					<label for="">Name</label>
+					<input type="text" name="name">
+				</div>
+				<div class="pubgname">
+					<label for="">Pubg UserName</label>
+					<input type="text" name="name">
+				</div>
+				<div class="mobile">
+					<label for="">Mobile No</label>
+					<input type="text" name="name">
+				</div>
+				<div class="mail">
+					<label for="">Email</label>
+					<input type="text" name="name">
+				</div>
+				<div class="pass">
+					<label for="">Password</label>
+					<input type="text" name="name">
+				</div>
+			</legend>
+		</form>
+	</div>
+
+	<script>
+		
+		document.querySelector('#click').addEventListener('click',function() {
+			document.querySelector('#login').style.display = 'block';
+		});
+		document.querySelector('#login').addEventListener('click',function() {
+			document.querySelector('#login').style.display = 'none';
+		});
+	</script>
+</body>
+</html>		
